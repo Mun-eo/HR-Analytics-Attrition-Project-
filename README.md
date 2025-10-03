@@ -69,6 +69,8 @@ CROSS JOIN
 
 </div>
 
+Male attrition (10%) is higher than that of female attrition (6%). This makes gender a high-priority segment for further investigation higlighting potential workplace equity issues.
+
 **Query**
 ```SQL
 SELECT 
@@ -80,5 +82,88 @@ LEFT JOIN
 	hr_performance per ON emp.employeeid = per.employeeid 
 GROUP BY 
 	emp.gender
+;
+```
+<div align="center">
+	
+### Attrition Disparity by Job Role
+| Metric | Finding | Context |
+| :--- | :--- | :--- |
+| **Laboratory Technician Attrition Rate** | 4.2% | This rate quantifies turnover for the Laboratory Technician role within Synthetix Solutions. |
+| **Sales Executive Attrition Rate** | 3.9% | This rate quantifies turnover for the Sales Executive role within Synthetix Solutions. |
+| **Research Scientist Attrition Rate** | 3.2% | This rate quantifies turnover for the Research Scientist role within Synthetix Solutions.|
+| **Sales Representative Attrition Rate** | 2.2% | This rate quantifies turnover for the Sales Representative role within Synthetix Solutions |
+
+</div>
+
+The job roles with the highest attrition rates are "Laboratory Technician", "Sales Executive", "Research Scientist", and "Sales Representatice. Compared to the other job roles within Synthetix Solutions which have rates below 1%. This requires further investigations on the affecting factors.
+
+**Query**
+```SQL
+SELECT 
+	emp.job_role,
+	CAST(SUM(CASE WHEN per.attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
+FROM 
+	hr_employee_info emp
+LEFT JOIN 
+	hr_performance per ON emp.employeeid = per.employeeid 
+GROUP BY 
+	emp.job_role
+ORDER BY 
+	emp_attrition_rate DESC
+;
+```
+<div align="center">
+
+### Attrition Disparity by Job Levels 
+ Metric | Finding | Context |
+| :--- | :--- | :--- |
+| **Job Level 1 Attrition Rate** | 9.72% | This rate quantifies turnover for employees  within Synthetix Solutions. |
+| **Job Level 2 Attrition Rate** | 3.53% | This rate quantifies turnover for the Sales Executive role within Synthetix Solutions. |
+| **Job Level 3 Attrition Rate** | 2.17% | This rate quantifies turnover for the Research Scientist role within Synthetix Solutions.|
+| **Job Level 4 Attrition Rate** | 0.34% | This rate quantifies turnover for the Sales Representative role within Synthetix Solutions |
+| **Job Level 5 Attrition Rate** | 0.34% | This rate quantifies turnover for the Sales Representative role within Synthetix Solutions |
+
+</div>
+
+There is a higher rate of attrition among employees who are classified at job level 1 reaching up to 9% compared to employees at higher job levels, which doesn't break over 5. This requires further investigations on the affecting factors.
+
+**Query**
+```SQL
+SELECT 
+	emp.job_level,
+	CAST(SUM(CASE WHEN per.attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
+FROM 
+	hr_employee_info emp
+LEFT JOIN 
+	hr_performance per ON emp.employeeid = per.employeeid 
+GROUP BY 
+	emp.job_level
+ORDER BY 
+	emp_attrition_rate DESC
+;
+```
+
+<div align="center"
+
+### Attrition Disparity by Overtime
+| Metric | Finding | Context |
+| :--- | :--- | :--- |
+| **Overtime Attrition Rate** | 8.63% | This rate quantifies turnover for employees who work overime within Synthetix Solutions. |
+| **No Overtime Attrition Rate** | 7.48% | This rate quantifies turnover for employees who do not work overime within Synthetix Solutions. |
+
+</div>
+
+There is not a large difference in attrition between employees who work overtime versus those who do not
+
+**Query**
+```SQL
+SELECT 
+	overtime,
+	CAST(SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
+FROM 
+	hr_performance 
+GROUP BY 
+	overtime
 ;
 ```
