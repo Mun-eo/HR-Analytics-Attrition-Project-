@@ -144,7 +144,7 @@ ORDER BY
 ;
 ```
 
-<div align="center"
+<div align="center">
 
 ### Attrition Disparity by Overtime
 | Metric | Finding | Context |
@@ -167,3 +167,67 @@ GROUP BY
 	overtime
 ;
 ```
+
+<div align="center">
+
+### Attriton Disparity by Education Level
+| Metric | Finding | Context |
+| :--- | :--- | :--- |
+| **Bachelor's Degree** |6.73% | This rate quantifies turnover for employees who hold an bachelor's degree within Synthetix Solutions. |
+| **Master's Degree** | 3.94% | This rate quantifies turnover for employees who hold an master's degree within Synthetix Solutions. |
+| **College** | 2.99% | This rate quantifies turnover for employees who have some college experience within Synthetix Solutions. |
+| **Below College** | 2.10% | This rate quantifies turnover for employees who do not have an college degree within Synthetix Solutions. |
+| **Doctorate Degree** |0.34% | This rate quantifies turnover for employees who hold an doctorate degree within Synthetix Solutions. |
+
+</div>
+
+There is a higher amount of attrition among employees who hold a bachelor's degree compared to the other categories of education level. This requires further investigations on the affecting factors.
+
+**Query**
+```SQL
+SELECT 
+	emp.education,
+	CAST(SUM(CASE WHEN per.attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
+FROM 
+	hr_employee_info emp
+LEFT JOIN 
+	hr_performance per ON emp.employeeid = per.employeeid 
+GROUP BY 
+	emp.education
+ORDER BY 
+	emp_attrition_rate DESC
+```
+<div align="center">
+
+### Attrition Disparity by Department 
+| Metric | Finding | Context |
+| :--- | :--- | :--- |
+| **Research and Development** |9.04% | This rate quantifies turnover for employees within the research and development department . |
+| **Sales** | 6.25% | This rate quantifies turnover for employees within the sales department. |
+| **Human Resources** | 0.81% | This rate quantifies turnover for employees within the human resources department. |
+
+</div>
+
+There is a attrition rate of 9% within the research and development department and a attriton rate of 6% in the sales department with the Human Resources department a atrrition rate of less than 1%. This requires further insights on the factors affecting the attrition rates of the research and development and sales department within Synthetix Solutions.
+
+**Query**
+```SQL
+SELECT 
+	emp.department,
+	CAST(SUM(CASE WHEN per.attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
+FROM 
+	hr_employee_info emp
+LEFT JOIN 
+	hr_performance per ON emp.employeeid = per.employeeid 
+GROUP BY 
+	emp.department
+ORDER BY 
+	emp_attrition_rate DESC
+;
+```
+
+
+
+---
+# Phase 2: Diagnostic Analysis: Uncovering the Attributing Factors to These Attrition Hotspots
+
