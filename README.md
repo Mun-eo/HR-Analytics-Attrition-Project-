@@ -217,8 +217,6 @@ ORDER BY
 ;
 ```
 
-
-
 ---
-# Phase 2: Diagnostic Analysis: Uncovering the Attributing Factors to These Attrition Hotspots
-This diagnostic step conducts a deep-dive correlation analysis performed in Excel and visualized within Tableau, identifying factors influencing employee turnover within Synthetix Solutions.
+# Phase 2: Diagnostic visualization: Showcasing the Attrition Hotspots Within Synthetix Solutions
+This diagnostic step conducts a visualization of areas with high attrition within Tableau, identifying areas that would require intervention and further research to influencing employee retention within Synthetix Solutions.
