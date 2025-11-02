@@ -7,16 +7,7 @@ Where is attrition happening within synthetix solutions and what demographics ar
 
 <h2>Understanding the dataset:</h2>
 
-This project was simulated using the IBM HR Analytics Employee Attrition & Performance collected from kaggle. The dataset consisted of 1470 rows of employee information. The information within the dataset highlights their info such as age, gender, salary, commute distance etc. Alongside their performance and self rated satisfaction with their job and environment at the company. The tools used for this project were SQL to collect the data needed for the descriptive analysis and conduct descriptive analysis of how attrition looks in the compan Excel to clean, analyze the dataset, SQL to conduct descriptive analysis of how attrition looks in the company, and Tableau to create visualizations and build a dashboard. 
-
-
-
-<h2>Data Cleaning walk-through:</h2>
-
-1. After exploring the dataset, every employee works a standard of 80 hours for each pay period meaning they work 40 hours in a week.  I noticed the daily and monthly rate for each employee was not accurate for their hourly pay. An example of this is Employee 1 has an hourly rate of $94 but their daily rate was $1,102 which is inaccurate, if they work 8 hours per day. Their daily rate should instead be $752 with their monthly rate being $15,040.
-2. The data tables were then exported into SQL to conduct a brief descriptive analysis on attrition rates within the company to uncover where there is a high amount of attrition. This would allow the project to  transfer into excel to find correlations between these areas with high attrition rate and other factors
-
-
+This project was simulated using the IBM HR Analytics Employee Attrition & Performance collected from kaggle. The dataset consisted of 1470 rows of employee information. The information within the dataset highlights their info such as age, gender, salary, commute distance etc. Alongside their performance and self rated satisfaction with their job and environment at the company. The tools used for this project were SQL to collect the data needed for the descriptive analysis, and Tableau to create visualizations and build a dashboard. 
 
 
 ---
