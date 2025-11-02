@@ -1,13 +1,13 @@
 # HR Analytics Attrition Project 
 
-Synthetix Solutions, a rapidly growing tech company, is experiencing a concerning rise in its employee turnover rate. The HR leadership team suspects that a combination of factors, including compensation, job satisfaction, and work-life balance, may be contributing to the issue. The goal is to use this dataset to uncover key insights and present actionable recommendations. The insights provided will be instrumental in helping the company’s leadership make data-driven decisions to improve employee retention, boost morale, and build a more stable and productive workforce.
+Synthetix Solutions, a rapidly growing tech company, is experiencing a concerning rise in it's employee turnover rate. The HR leadership team suspects that a combination of factors, including compensation, job satisfaction, and work-life balance, may be contributing to the issue but do not have a clear idea of where attrition is happening. The goal is to use this dataset to uncover key insights on where attrition is occuring within the organization and present actionable recommendations. The insights provided will be instrumental in helping the company’s leadership make data-driven decisions to improve employee retention, boost morale, and build a more stable and productive workforce.
 
-Main challenge:
-What factors are affecting employee retention within Synthtix Solutions?
+Business challenge to uncover:
+Where is attrition happening within synthetix solutions and what demographics are contributing to the attrition?
 
 <h2>Understanding the dataset:</h2>
 
-This project was simulated using the IBM HR Analytics Employee Attrition & Performance collected from kaggle. The dataset consisted of 1470 rows of employee information. The information within the dataset highlights their info such as age, gender, salary, commute distance etc. Alongside their performance and self rated satisfaction with their job and environment at the company. The tools used for this project were Excel to clean, analyze the dataset, SQL to conduct descriptive analysis of how attrition looks in the company, and Tableau to create visualizations and build a dashboard. 
+This project was simulated using the IBM HR Analytics Employee Attrition & Performance collected from kaggle. The dataset consisted of 1470 rows of employee information. The information within the dataset highlights their info such as age, gender, salary, commute distance etc. Alongside their performance and self rated satisfaction with their job and environment at the company. The tools used for this project were SQL to collect the data needed for the descriptive analysis and conduct descriptive analysis of how attrition looks in the compan Excel to clean, analyze the dataset, SQL to conduct descriptive analysis of how attrition looks in the company, and Tableau to create visualizations and build a dashboard. 
 
 
 
