@@ -2,7 +2,7 @@
 
 Synthetix Solutions, a rapidly growing tech company, is experiencing a concerning rise in it's employee turnover rate. The HR leadership team suspects that a combination of factors, including compensation, job satisfaction, and work-life balance, may be contributing to the issue but do not have a clear idea of where attrition is happening. The goal is to use this dataset to uncover key insights on where attrition is occuring within the organization and present actionable recommendations. The insights provided will be instrumental in helping the company’s leadership make data-driven decisions to improve employee retention, boost morale, and build a more stable and productive workforce.
 
-Business challenge to uncover:
+### Business challenge to uncover:
 Where is attrition happening within synthetix solutions and what demographics are contributing to the attrition?
 
 <h2>Understanding the dataset:</h2>
