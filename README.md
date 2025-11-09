@@ -137,30 +137,6 @@ ORDER BY
 
 <div align="center">
 
-### Attrition Disparity by Overtime
-| Metric | Finding | Context |
-| :--- | :--- | :--- |
-| **Overtime Attrition Rate** | 8.63% | This rate quantifies turnover for employees who work overime within Synthetix Solutions. |
-| **No Overtime Attrition Rate** | 7.48% | This rate quantifies turnover for employees who do not work overime within Synthetix Solutions. |
-
-</div>
-
-There is not a large difference in attrition between employees who work overtime versus those who do not
-
-**Query**
-```SQL
-SELECT 
-	overtime,
-	CAST(SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
-FROM 
-	hr_performance 
-GROUP BY 
-	overtime
-;
-```
-
-<div align="center">
-
 ### Attriton Disparity by Education Level
 | Metric | Finding | Context |
 | :--- | :--- | :--- |
