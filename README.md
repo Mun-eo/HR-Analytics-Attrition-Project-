@@ -2,18 +2,25 @@
 
 Synthetix Solutions, a rapidly growing tech company, is experiencing a concerning rise in it's employee turnover rate. The HR leadership team suspects that a combination of factors, including compensation, job satisfaction, and work-life balance, may be contributing to the issue but do not have a clear idea of where attrition is happening. The goal is to use this dataset to uncover key insights on where attrition is occuring within the organization and present actionable recommendations. The insights provided will be instrumental in helping the company’s leadership make data-driven decisions to improve employee retention, boost morale, and build a more stable and productive workforce.
 
-### Business challenge to uncover:
-Where is attrition happening within synthetix solutions and what demographics are contributing to the attrition?
+### Business challenge :
+Where is attrition happening within synthetix solutions and what demographics are contributing to the attrition? 
+
+**Insights needed to answer the business challenge**
+1. What is the attrition and retention rate within Synthetix Solutions?
+2. What is the attrition spread among the departments within Synthetix Solutions?
+3. Which gender has higher attrition?
+4. What job roles are affected by attrition?
+5. What year is attrition occuring in the most among these job roles?
+6. What are the potential casues of the attrition within the high risk job roles?
 
 <h2>Understanding the dataset:</h2>
 
-This project was simulated using the IBM HR Analytics Employee Attrition & Performance collected from kaggle. The dataset consisted of 1470 rows of employee information. The information within the dataset highlights their info such as age, gender, salary, commute distance etc. Alongside their performance and self rated satisfaction with their job and environment at the company. The tools used for this project were SQL to collect the data needed for the descriptive analysis, and Tableau to create visualizations and build a dashboard. 
-
+This project was simulated using the IBM HR Analytics Employee Attrition & Performance collected from kaggle. The dataset consisted of 1470 rows of employee information. The information within the dataset highlights their info such as age, gender, job role, job level, commute distance etc. Alongside their performance and self rated satisfaction with their job and environment at the company. The tools used for this project were SQL to collect the data needed for the descriptive analysis, and Tableau to create visualizations and build a dashboard to provide clear insights on where is attrition happening within synthetix solutions and what demographics are contributing to the attrition.
 
 ---
 # Phase 1: Descriptive Analysis: Uncovering Attrition Hotspots
 
-The initial analysis established a baseline for employee attrition and identified key demographic segments driving the rate. This diagnostic step informed the subsequent deep-dive correlation analysis performed in Excel.
+The initial analysis established a baseline for employee attrition
 
 <div align="center">
    
@@ -109,11 +116,11 @@ ORDER BY
 ### Attrition Disparity by Job Levels 
  Metric | Finding | Context |
 | :--- | :--- | :--- |
-| **Job Level 1 Attrition Rate** | 9.72% | This rate quantifies turnover for employees  within Synthetix Solutions. |
-| **Job Level 2 Attrition Rate** | 3.53% | This rate quantifies turnover for the Sales Executive role within Synthetix Solutions. |
-| **Job Level 3 Attrition Rate** | 2.17% | This rate quantifies turnover for the Research Scientist role within Synthetix Solutions.|
-| **Job Level 4 Attrition Rate** | 0.34% | This rate quantifies turnover for the Sales Representative role within Synthetix Solutions |
-| **Job Level 5 Attrition Rate** | 0.34% | This rate quantifies turnover for the Sales Representative role within Synthetix Solutions |
+| **Job Level 1 Attrition Rate** | 9.72% | This rate quantifies turnover for employees who are under job level 1 within Synthetix Solutions. |
+| **Job Level 2 Attrition Rate** | 3.53% | This rate quantifies turnover for employees who are under job level 2 within Synthetix Solutions. |
+| **Job Level 3 Attrition Rate** | 2.17% | This rate quantifies turnover for employees who are under job level 3 within Synthetix Solutions.|
+| **Job Level 4 Attrition Rate** | 0.34% | This rate quantifies turnover for employees who are under job level 4 within Synthetix Solutions |
+| **Job Level 5 Attrition Rate** | 0.34% | This rate quantifies turnover for employees who are under job level 5 within Synthetix Solutions |
 
 </div>
 
@@ -137,39 +144,11 @@ ORDER BY
 
 <div align="center">
 
-### Attriton Disparity by Education Level
-| Metric | Finding | Context |
-| :--- | :--- | :--- |
-| **Bachelor's Degree** |6.73% | This rate quantifies turnover for employees who hold an bachelor's degree within Synthetix Solutions. |
-| **Master's Degree** | 3.94% | This rate quantifies turnover for employees who hold an master's degree within Synthetix Solutions. |
-| **College** | 2.99% | This rate quantifies turnover for employees who have some college experience within Synthetix Solutions. |
-| **Below College** | 2.10% | This rate quantifies turnover for employees who do not have an college degree within Synthetix Solutions. |
-| **Doctorate Degree** |0.34% | This rate quantifies turnover for employees who hold an doctorate degree within Synthetix Solutions. |
-
-</div>
-
-There is a higher amount of attrition among employees who hold a bachelor's degree compared to the other categories of education level. This requires further investigations on the affecting factors.
-
-**Query**
-```SQL
-SELECT 
-	emp.education,
-	CAST(SUM(CASE WHEN per.attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
-FROM 
-	hr_employee_info emp
-LEFT JOIN 
-	hr_performance per ON emp.employeeid = per.employeeid 
-GROUP BY 
-	emp.education
-ORDER BY 
-	emp_attrition_rate DESC
-```
-<div align="center">
 
 ### Attrition Disparity by Department 
 | Metric | Finding | Context |
 | :--- | :--- | :--- |
-| **Research and Development** |9.04% | This rate quantifies turnover for employees within the research and development department . |
+| **Research and Development** |9.04% | This rate quantifies turnover for employees within the research and development department. |
 | **Sales** | 6.25% | This rate quantifies turnover for employees within the sales department. |
 | **Human Resources** | 0.81% | This rate quantifies turnover for employees within the human resources department. |
 
