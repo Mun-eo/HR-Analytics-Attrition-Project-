@@ -175,3 +175,44 @@ ORDER BY
 ---
 # Phase 2: Diagnostic visualization: Showcasing the Attrition Hotspots Within Synthetix Solutions
 This diagnostic step conducts a visualization of areas with high attrition within Tableau, identifying areas that would require intervention and further research to influencing employee retention within Synthetix Solutions.
+
+<h2>Data Analysis & Visualization:</h2>
+<p align="center">
+Identify Customer Preferences  <br/>
+
+Analysis of car transactions from January 2022 to December 2023 using a visualizational model reveals findings on customer preferences. The SUV was the most purchased body style making up 27% of transactions, with the average price being around $28,000. Customers preferred to purchase vehicles from brands such as Chevrolet, Dodge, Ford, Mercedes-Benz and Volkswagen bringing in one-third of transactions. This opens strategic opportunities to increase SUV inventory for Chevrolet, Dodge, Ford, Volkswagen, and Mercedes-benz increasing profits.
+
+
+<p align="center">
+<img width="1336" height="159" alt="image" src="https://github.com/user-attachments/assets/8d010454-cb51-42c1-a473-f54be292bba8" />
+
+
+<p align="center">
+Customer Demographics <br/>
+
+ Analysis of customer demographics from January 2022 to December 2023 reveals 13% earning gap between male and female customers where male customers on the high end with $851,184 and female customers on the low end with $755,973. With males making up 79% of customers while females make up 21%. The income values themselves are higher than what we normally see in real life, but what really matters here is the difference between the groups. This could open more doors to uncover how to increase engagement with female customers.
+1|2
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/09384b3e-50b8-4aa1-8846-24daca3f0aaa" alt="Input field screenshot" width="350"> | <img src="https://github.com/user-attachments/assets/6874e499-121a-415a-a3c5-e89ac7c6546d" alt="Results output screenshot" width="650"> |
+
+
+
+
+<p align="center">
+Trends in car purchases <br/>
+
+Analyzing historical data revealed a pattern in car transactions in the months of August, September and October. From August to September, car transactions increased by 82%, rising from 810 to 1,475 orders, but then fell in October. The same thing happened in both 2022 and 2023, which shows a clear seasonal pattern. This surge suggests late summer is a key window to stock up on SUVs and push promotions when customers are most active.
+
+
+1|2
+| :---: | :---: |
+ | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" />|<img src="https://github.com/user-attachments/assets/6874e499-121a-415a-a3c5-e89ac7c6546d" alt="Results output screenshot" width="650"  height="398"> |
+
+
+
+<p align="center">
+Car Transactions by Location  <br/>
+
+When breaking down sales by state, states like Texas, Wisconsin, and Arizona came out on top, while others had lower sales performance. Since the dataset is looking at raw transaction numbers, it works well to show which regions are moving cars at a higher pace. Regions such as Texas, Wisconsin and Arizona have transactions greater than 3,400 while the other regions have transactions under 3,399. Highlighting where performance is lowest, provides opportunity to implement a marketing experiment within one of the low performing locations.
+
+<img width="1118" height="400" alt="image" src="https://github.com/user-attachments/assets/736daeaf-16b1-41a2-9e5d-22dd7aab19c5" />
