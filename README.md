@@ -178,10 +178,9 @@ This diagnostic step conducts a visualization of areas with high attrition withi
 
 <h2>Data Analysis & Visualization:</h2>
 <p align="center">
-Identify Customer Preferences  <br/>
+Identifying Attrition & Retention baseline <br/>
 
-Analysis of car transactions from January 2022 to December 2023 using a visualizational model reveals findings on customer preferences. The SUV was the most purchased body style making up 27% of transactions, with the average price being around $28,000. Customers preferred to purchase vehicles from brands such as Chevrolet, Dodge, Ford, Mercedes-Benz and Volkswagen bringing in one-third of transactions. This opens strategic opportunities to increase SUV inventory for Chevrolet, Dodge, Ford, Volkswagen, and Mercedes-benz increasing profits.
-
+Analysis of employee data utilizing a visual KPI model reveals findings on Synthetix Solutions original headcount. The analsysis then provided insights into the company's retention and turnover rates. With employee attrition under 20%, this indicates that a majority of employees are satisfied working for Synthetix Solutions.
 
 <p align="center">
 <img width="1336" height="159" alt="image" src="https://github.com/user-attachments/assets/8d010454-cb51-42c1-a473-f54be292bba8" />
