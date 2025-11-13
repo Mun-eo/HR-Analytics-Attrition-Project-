@@ -205,7 +205,8 @@ Analyzing historical data revealed a pattern in car transactions in the months o
 
 1|2
 | :---: | :---: |
- | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" />|<img src="https://github.com/user-attachments/assets/6874e499-121a-415a-a3c5-e89ac7c6546d" alt="Results output screenshot" width="650"  height="398"> |
+ | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" />|<img width="903" height="256" alt="Screenshot 2025-11-13 at 2 05 33 PM" src="https://github.com/user-attachments/assets/bb31493b-3c90-4fcf-a8bf-e5d29c99d7fb" />
+
 
 
 
