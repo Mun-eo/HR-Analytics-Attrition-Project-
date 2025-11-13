@@ -180,17 +180,17 @@ This diagnostic step conducts a visualization of areas with high attrition withi
 <p align="center">
 Identifying Attrition & Retention baseline <br/>
 
-Analysis of employee data utilizing a visual KPI model reveals findings on Synthetix Solutions original headcount. The analsysis then provided insights into the company's retention and turnover rates. With employee attrition under 20%, this indicates that a majority of employees are satisfied working for Synthetix Solutions.
+Analysis of employee data utilizing a visual KPI model reveals findings on Synthetix Solutions original headcount. The analsysis then provided insights into the company's retention and turnover rates. With employee attrition under **20%**, this indicates that a majority of employees are satisfied working for Synthetix Solutions.
 
 <p align="center">
 <img width="1336" height="159" alt="image" src="https://github.com/user-attachments/assets/8d010454-cb51-42c1-a473-f54be292bba8" />
 
 
 <p align="center">
-Customer Demographics <br/>
+Turnover Demographics <br/>
 
- Analysis of customer demographics from January 2022 to December 2023 reveals 13% earning gap between male and female customers where male customers on the high end with $851,184 and female customers on the low end with $755,973. With males making up 79% of customers while females make up 21%. The income values themselves are higher than what we normally see in real life, but what really matters here is the difference between the groups. This could open more doors to uncover how to increase engagement with female customers.
-1|2
+Analyzing attrition by gender and age reveals that male employees are leaving at a higher rate compared to female employees, with ages of departed employees ranging from **28 - 34** years old. Further investigation is required to unvover the drivers behind the high male attrition rate and departures within the specificed age brackey. This provides insights needed for future projects focused on improving retention among male employees.
+Attrition among Genders| Attrition among Age Groups
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/09384b3e-50b8-4aa1-8846-24daca3f0aaa" alt="Input field screenshot" width="350"> | <img src="https://github.com/user-attachments/assets/6874e499-121a-415a-a3c5-e89ac7c6546d" alt="Results output screenshot" width="650"> |
 
