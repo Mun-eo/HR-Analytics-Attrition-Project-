@@ -2,7 +2,7 @@
 
 Synthetix Solutions, a rapidly growing tech company, is experiencing a concerning rise in it's employee turnover rate. The HR leadership team suspects that a combination of factors, including compensation, job satisfaction, and work-life balance, may be contributing to the issue but do not have a clear idea of where attrition is happening. The goal is to use this dataset to uncover key insights on where attrition is occuring within the organization and present actionable recommendations. The insights provided will be instrumental in helping the company’s leadership make data-driven decisions to improve employee retention, boost morale, and build a more stable and productive workforce.
 
-### Business challenge :
+### Business challenge:
 Where is attrition happening within synthetix solutions and what demographics are contributing to the attrition? 
 
 **Insights needed to answer the business challenge**
@@ -111,37 +111,7 @@ ORDER BY
 	emp_attrition_rate DESC
 ;
 ```
-<div align="center">
-
-### Attrition Disparity by Job Levels 
- Metric | Finding | Context |
-| :--- | :--- | :--- |
-| **Job Level 1 Attrition Rate** | 9.72% | This rate quantifies turnover for employees who are under job level 1 within Synthetix Solutions. |
-| **Job Level 2 Attrition Rate** | 3.53% | This rate quantifies turnover for employees who are under job level 2 within Synthetix Solutions. |
-| **Job Level 3 Attrition Rate** | 2.17% | This rate quantifies turnover for employees who are under job level 3 within Synthetix Solutions.|
-| **Job Level 4 Attrition Rate** | 0.34% | This rate quantifies turnover for employees who are under job level 4 within Synthetix Solutions |
-| **Job Level 5 Attrition Rate** | 0.34% | This rate quantifies turnover for employees who are under job level 5 within Synthetix Solutions |
-
-</div>
-
-There is a higher rate of attrition among employees who are classified at job level 1 reaching up to 9% compared to employees at higher job levels, which doesn't break over 5. This requires further investigations on the affecting factors.
-
-**Query**
-```SQL
-SELECT 
-	emp.job_level,
-	CAST(SUM(CASE WHEN per.attrition = 'Yes' THEN 1 ELSE 0 END)AS DECIMAL)/(SELECT COUNT(*) FROM hr_employee_info) *100 AS emp_attrition_rate
-FROM 
-	hr_employee_info emp
-LEFT JOIN 
-	hr_performance per ON emp.employeeid = per.employeeid 
-GROUP BY 
-	emp.job_level
-ORDER BY 
-	emp_attrition_rate DESC
-;
-```
-
+  
 <div align="center">
 
 
@@ -198,9 +168,15 @@ Attrition among Genders| Attrition among Age Groups
 
 
 <p align="center">
-Trends in car purchases <br/>
+Where is attrition occuring in Synthetix Solutions? <br/>
 
-Analyzing historical data revealed a pattern in car transactions in the months of August, September and October. From August to September, car transactions increased by 82%, rising from 810 to 1,475 orders, but then fell in October. The same thing happened in both 2022 and 2023, which shows a clear seasonal pattern. This surge suggests late summer is a key window to stock up on SUVs and push promotions when customers are most active.
+Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (26%), Sales Executive 
+
+ **Laboratory Technician Attrition Rate** | 4.2% | This rate quantifies turnover for the Laboratory Technician role within Synthetix Solutions. |
+| **Sales Executive Attrition Rate** | 3.9% | This rate quantifies turnover for the Sales Executive role within Synthetix Solutions. |
+| **Research Scientist Attrition Rate** | 3.2% | This rate quantifies turnover for the Research Scientist role within Synthetix Solutions.|
+| **Sales Representative Attrition 
+
 
 Attrition among Departments| Attrition among Job roles
 | :---: | :---: |
