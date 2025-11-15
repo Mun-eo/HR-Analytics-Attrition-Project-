@@ -202,8 +202,7 @@ Trends in car purchases <br/>
 
 Analyzing historical data revealed a pattern in car transactions in the months of August, September and October. From August to September, car transactions increased by 82%, rising from 810 to 1,475 orders, but then fell in October. The same thing happened in both 2022 and 2023, which shows a clear seasonal pattern. This surge suggests late summer is a key window to stock up on SUVs and push promotions when customers are most active.
 
-
-1|2
+Attrition among Departments| Attrition among Job roles
 | :---: | :---: |
  | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" />|<img width="903" height="256" alt="Screenshot 2025-11-13 at 2 05 33 PM" src="https://github.com/user-attachments/assets/bb31493b-3c90-4fcf-a8bf-e5d29c99d7fb" />
 
