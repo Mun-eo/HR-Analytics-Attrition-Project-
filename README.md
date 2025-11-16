@@ -155,7 +155,7 @@ Analysis of employee data utilizing a visual KPI model reveals findings on Synth
 <p align="center">
 <img width="1336" height="159" alt="image" src="https://github.com/user-attachments/assets/8d010454-cb51-42c1-a473-f54be292bba8" />
 
-
+-----
 <p align="center">
 Turnover Demographics <br/>
 
@@ -164,25 +164,20 @@ Attrition among Genders| Attrition among Age Groups
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/09384b3e-50b8-4aa1-8846-24daca3f0aaa" alt="Input field screenshot" width="350"> | <img src="https://github.com/user-attachments/assets/6874e499-121a-415a-a3c5-e89ac7c6546d" alt="Results output screenshot" width="650"> |
 
-
-
-
+-----
 <p align="center">
 Where is attrition occuring in Synthetix Solutions? <br/>
 
-Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (26.16%), Sales Executive(24.05%), Research Scientist(19.83%), Sales Representative(13.92%) as the job roles affected by attrition. This insight provides us focus groups to focus on 
+Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (26.16%), Sales Executive(24.05%), Research Scientist(19.83%), Sales Representative(13.92%) as the job roles highly affected by attrition. This insight provides us focus groups to utilize in the future projects focused on improving retention.
 
  
 Attrition among Departments| Attrition among Job roles
 | :---: | :---: |
  | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" />|<img width="903" height="256" alt="Screenshot 2025-11-13 at 2 05 33 PM" src="https://github.com/user-attachments/assets/bb31493b-3c90-4fcf-a8bf-e5d29c99d7fb" />
 
-
-
-
+-----
 <p align="center">
-Car Transactions by Location  <br/>
+What year is attrition occuring in Synthetix Solutions?  <br/>
 
-When breaking down sales by state, states like Texas, Wisconsin, and Arizona came out on top, while others had lower sales performance. Since the dataset is looking at raw transaction numbers, it works well to show which regions are moving cars at a higher pace. Regions such as Texas, Wisconsin and Arizona have transactions greater than 3,400 while the other regions have transactions under 3,399. Highlighting where performance is lowest, provides opportunity to implement a marketing experiment within one of the low performing locations.
-
+When breaking down attrition by years focuseed on job roles highly affected by attrition. It is apparent that a majority employees within these roles turnover after thier first year at the company. The current trend showcases about 50 employees leaving after their first year, then the attrition of  
 <img width="1118" height="400" alt="image" src="https://github.com/user-attachments/assets/736daeaf-16b1-41a2-9e5d-22dd7aab19c5" />
