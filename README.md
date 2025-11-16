@@ -160,6 +160,7 @@ Analysis of employee data utilizing a visual KPI model reveals findings on Synth
 Turnover Demographics <br/>
 
 Analyzing attrition by gender and age reveals that male employees are leaving at a higher rate compared to female employees, with ages of departed employees ranging from **28 - 34** years old. Further investigation is required to unvover the drivers behind the high male attrition rate and departures within the specificed age brackey. This provides insights needed for future projects focused on improving retention among male employees.
+
 Attrition among Genders| Attrition among Age Groups
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/09384b3e-50b8-4aa1-8846-24daca3f0aaa" alt="Input field screenshot" width="350"> | <img src="https://github.com/user-attachments/assets/6874e499-121a-415a-a3c5-e89ac7c6546d" alt="Results output screenshot" width="650"> |
@@ -170,7 +171,6 @@ Where is attrition occuring in Synthetix Solutions? <br/>
 
 Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (**26.16%**), Sales Executive(**24.05%**), Research Scientist(**19.83%**), Sales Representative(**13.92%**) as the job roles highly affected by attrition. This insight provides us focus groups to utilize in the future projects focused on improving retention.
 
- 
 Attrition among Departments| Attrition among Job roles
 | :---: | :---: |
  | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" > | <img width="903" height="256" alt="Screenshot 2025-11-13 at 2 05 33 PM" src="https://github.com/user-attachments/assets/bb31493b-3c90-4fcf-a8bf-e5d29c99d7fb" >
@@ -183,3 +183,6 @@ When breaking down attrition by years focuseed on job roles highly affected by a
 <img width="1118" height="400" alt="image" src="https://github.com/user-attachments/assets/736daeaf-16b1-41a2-9e5d-22dd7aab19c5" />
 
 # Phase 3: Reccomendations for Synthetix Solutions
+1. Utilize self-rated satisfaction such as Job, Environment and Relationship satisfaction data to uncover potential drivers inlfuencing attrition within the Laboratory Technician, Sales Executive, Research Scientist,and Sales Representative roles.
+2. Develop a offboarding questionnaire for employees that measures reasons for turnover. This data will be utilized to uncover what is a driving factor for turnover in employees ranging from **28 - 34** years old.
+3. Conduct further research on what's driving retention within the Human Resources department, to implement these retention driving factors into attrition hotspots within the Synthetix Solutions
