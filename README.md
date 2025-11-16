@@ -168,16 +168,18 @@ Attrition among Genders| Attrition among Age Groups
 <p align="center">
 Where is attrition occuring in Synthetix Solutions? <br/>
 
-Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (26.16%), Sales Executive(24.05%), Research Scientist(19.83%), Sales Representative(13.92%) as the job roles highly affected by attrition. This insight provides us focus groups to utilize in the future projects focused on improving retention.
+Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (**26.16%**), Sales Executive(**24.05%**), Research Scientist(**19.83%**), Sales Representative(**13.92%**) as the job roles highly affected by attrition. This insight provides us focus groups to utilize in the future projects focused on improving retention.
 
  
 Attrition among Departments| Attrition among Job roles
 | :---: | :---: |
- | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" />|<img width="903" height="256" alt="Screenshot 2025-11-13 at 2 05 33 PM" src="https://github.com/user-attachments/assets/bb31493b-3c90-4fcf-a8bf-e5d29c99d7fb" />
+ | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" > | <img width="903" height="256" alt="Screenshot 2025-11-13 at 2 05 33 PM" src="https://github.com/user-attachments/assets/bb31493b-3c90-4fcf-a8bf-e5d29c99d7fb" >
 
 -----
 <p align="center">
 What year is attrition occuring in Synthetix Solutions?  <br/>
 
-When breaking down attrition by years focuseed on job roles highly affected by attrition. It is apparent that a majority employees within these roles turnover after thier first year at the company. The current trend showcases about 50 employees leaving after their first year, then the attrition of  
+When breaking down attrition by years focuseed on job roles highly affected by attrition. It is apparent that employees within these roles turnover after their first year at the company. The current trend showcases about 50 employees leaving after their first year, then the attrition decreases as the years increases. This insight showcases longetivity challenges within employee retention for these roles highlighting a need to reconfigure the four job roles to make it a satisfying position. 
 <img width="1118" height="400" alt="image" src="https://github.com/user-attachments/assets/736daeaf-16b1-41a2-9e5d-22dd7aab19c5" />
+
+# Phase 3: Reccomendations for Synthetix Solutions
