@@ -170,14 +170,9 @@ Attrition among Genders| Attrition among Age Groups
 <p align="center">
 Where is attrition occuring in Synthetix Solutions? <br/>
 
-Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (26%), Sales Executive 
+Utilizing inactive employee data reveals the Research & Development Department, and the Sales Department make up **94%** of employee turnover when used to uncover attrition by departments. Futher investigation was conducted to analyze the job roles affected by attrition. Which showcased Laboratory Technician (26.16%), Sales Executive(24.05%), Research Scientist(19.83%), Sales Representative(13.92%) as the job roles affected by attrition. This insight provides us focus groups to focus on 
 
- **Laboratory Technician Attrition Rate** | 4.2% | This rate quantifies turnover for the Laboratory Technician role within Synthetix Solutions. |
-| **Sales Executive Attrition Rate** | 3.9% | This rate quantifies turnover for the Sales Executive role within Synthetix Solutions. |
-| **Research Scientist Attrition Rate** | 3.2% | This rate quantifies turnover for the Research Scientist role within Synthetix Solutions.|
-| **Sales Representative Attrition 
-
-
+ 
 Attrition among Departments| Attrition among Job roles
 | :---: | :---: |
  | <img width="546" height="398" alt="image" src="https://github.com/user-attachments/assets/facb4ff7-3151-4676-a893-d312f80acc49" />|<img width="903" height="256" alt="Screenshot 2025-11-13 at 2 05 33 PM" src="https://github.com/user-attachments/assets/bb31493b-3c90-4fcf-a8bf-e5d29c99d7fb" />
